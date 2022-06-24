@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="oop.SmartPhoneTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-24T04:57:47" hostname="Chanui-MacBookPro.local" time="0.048">
+  <properties/>
+  <testcase name="Dialing delegates to internal phone()" classname="oop.SmartPhoneTest" time="0.046"/>
+  <testcase name="Taking picture delegates to internal camera()" classname="oop.SmartPhoneTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
