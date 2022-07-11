@@ -1,4 +1,4 @@
-package oop
+package CH08_cookbook
 
 interface Dialable {
     fun dial(number: String): String
@@ -19,4 +19,12 @@ class Camera : Snappable {
 class SmartPhone(
     private val phone: Dialable = Phone(),
     private val camera: Snappable = Camera()
-): Dialable by phone, Snappable by camera
+) : Dialable by phone, Snappable by camera
+
+
+// lazy
+
+val ultimateAnswer: Int by lazy {
+    println("computing the answer")
+    42
+}

@@ -1,4 +1,4 @@
-package oop
+package CH08_cookbook
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
