@@ -21,6 +21,7 @@ fun main() {
 
 
     // TODO: === run() ===
+    // run is a extension function
     address.run {
         street1 = "9801 Maple Ave"
         street2 = "Apartment 255"
@@ -45,5 +46,11 @@ fun main() {
     // 'ROBOTS FROM PLANET X3'
 
     // TODO: === let() ===
+    val __newTitle = title
+        .removePrefix("The")
+        .let {
+            "'$it'"
+        }
+        .uppercase()
 
 }
