@@ -1,4 +1,4 @@
-package javatokotlin.CH03;
+package javatokotlin.ch03;
 
 import java.util.Objects;
 
