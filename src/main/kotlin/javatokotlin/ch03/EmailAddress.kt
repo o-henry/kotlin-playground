@@ -1,6 +1,8 @@
 package javatokotlin.ch03
 
-data class EmailAddress(
+data class EmailAddress
+    (
+
     val localPart: String, // primary constructor
     val domain: String,
 ) {
