@@ -41,8 +41,8 @@ fun main() {
 
 
     /** user */
-    val user = User()
-    user.name = "norbert"
+    val user = User(1, "any")
+    //    user.name = "norbert"
     println(user.name) // NOBERT
 
     /** puppyt */
