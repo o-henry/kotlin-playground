@@ -2,7 +2,7 @@ package reference.coroutine
 
 import kotlinx.coroutines.*
 
-fun main() = runBlocking {
+fun _____main() = runBlocking {
     val job = launch {
         for (i in 1..10) {
             yield() // 취소 가능 시점에 다른 continuation에 실행식나을 양보한다.
