@@ -8,7 +8,7 @@ import kotlinx.coroutines.*
  * 2023.05.11
  * 원래 흐름대로 라면, 함수 호출시 스택에 쌓여서 실행이 완료되어야 다음 함수가 실행되어야 하는데, 독립적으로 동작할 수 있다는 말인듯 하다.
  */
-fun main() = runBlocking { // this: CoroutineScope
+fun _main() = runBlocking { // this: CoroutineScope
     launch { // 새로운 coroutine을 실행하고 계속한다.
         delay(1000L) // 블로킹 하지 않고 1초를 지연시킨다. (기본 시간 단위 : ms)
         println("World!") // 지연 이후에 프린트한다.

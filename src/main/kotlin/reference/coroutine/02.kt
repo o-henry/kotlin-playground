@@ -17,7 +17,7 @@ import kotlinx.coroutines.runBlocking
  *
  * 즉 suspend와 같은 일시중단 함수를 사용하면 특정 지점에서 일시 중단되고, 다시 코루틴이 완료될때까지 기다리게 할 수 있다.
  */
-fun main() = runBlocking {
+fun __main() = runBlocking {
     doWorld()
     println("Done")
 }
