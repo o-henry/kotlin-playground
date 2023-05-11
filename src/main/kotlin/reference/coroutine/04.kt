@@ -4,7 +4,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
-fun main() = runBlocking {
+fun ____main() = runBlocking {
 
     /***
      * Job을 통해서 코루틴을 제어할 수 있다.
