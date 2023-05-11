@@ -2,8 +2,6 @@ package reference.coroutine
 
 import kotlinx.coroutines.*
 
-// https://simplecode.kr/25
-
 /**
  * 2023.05.11
  * 원래 흐름대로 라면, 함수 호출시 스택에 쌓여서 실행이 완료되어야 다음 함수가 실행되어야 하는데, 독립적으로 동작할 수 있다는 말인듯 하다.
