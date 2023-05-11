@@ -4,7 +4,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
-fun main() = runBlocking {
+fun ___main() = runBlocking {
     val job = launch { // 새로운 코루틴을 실행하고 그 Job에 대한 참조를 유지한다
         delay(1000L)
         println("World!")
